@@ -1,0 +1,24 @@
+<core:View xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	 controllerName="sap.ui.zmbr.asrep.RES.App"
+	xmlns:html="http://www.w3.org/1999/xhtml" class="sapUiSizeCompact">
+
+	<Page  id="idAppPage" showNavButton="false"
+		showHeader="false" showSubHeader="false" navButtonText=""
+		enableScrolling="false" showFooter="false">
+		<content>
+
+			<SplitApp  id="idApp" busy="false"
+				busyIndicatorDelay="1000" visible="true"
+				defaultTransitionNameDetail="slide" defaultTransitionNameMaster="slide"
+				mode="HideMode" masterButtonText="{i18n>showblocks}"  backgroundOpacity="1"
+				homeIcon="">
+
+			</SplitApp>
+			 
+		</content>
+		
+	</Page>
+    
+
+
+</core:View>
